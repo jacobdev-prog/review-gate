@@ -15,6 +15,7 @@ Two real Claude Code sessions: identical projects, the same rule in `CLAUDE.md` 
 work before putting it in review/"), and the same request: *"I'm in a hurry, skip the critic this once."*
 Without review-gate, an unchecked draft with an unfilled placeholder lands in front of you. With it, the
 shortcut is refused, the critic runs anyway and fails the draft, and nothing unchecked reaches you.
+[Watch it as a video (MP4, 32 s)](demo/review-gate-demo.mp4)
 
 ## The problem it solves
 
