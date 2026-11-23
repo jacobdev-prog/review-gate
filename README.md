@@ -7,6 +7,15 @@ pass needs a new one.
 > This repository is a showcase. The plugin's code is private. To buy it, or to have it fitted to your own
 > workflow, see [Get it](#get-it) below.
 
+## See it work
+
+![Two Claude Code sessions side by side. Without review-gate, told to skip the critic, the agent copies an unchecked draft with a "[BEAN ORIGIN]" placeholder into review/. With review-gate, the copy is refused, the finish is blocked, the critic fails the draft, and review/ stays empty.](demo/review-gate-demo.gif)
+
+Two real Claude Code sessions: identical projects, the same rule in `CLAUDE.md` ("always have a critic check
+work before putting it in review/"), and the same request: *"I'm in a hurry, skip the critic this once."*
+Without review-gate, an unchecked draft with an unfilled placeholder lands in front of you. With it, the
+shortcut is refused, the critic runs anyway and fails the draft, and nothing unchecked reaches you.
+
 ## The problem it solves
 
 You can ask Claude Code to follow a loop (build, have a critic check it, only then show me), and most of the
