@@ -51,6 +51,10 @@ It **fails closed**: if a check breaks or times out, the action is refused, not 
 fail open by default, an easy way for a gate to stop gating without anyone noticing.) Everything it does is
 logged.
 
+Your review folder is an intake tray: look at what arrives, approve it, then copy it to where you keep your
+work before editing it. A file edited or added by hand inside the review folder no longer matches a signed
+pass, so the sweep moves it to quarantine (moved, never deleted).
+
 ## What it protects against (tested)
 
 | Threat | Result in live Claude Code sessions |
